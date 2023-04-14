@@ -1,0 +1,126 @@
+
+
+body{
+	width: 100%;
+	background-color: rgb(1, 9, 41);
+	color: wheat;
+	padding: 25px;
+}
+p{
+	background-color: rgb(10, 64, 68);
+	font-size: 23px;
+	border: 2px solid lightgreen;
+	width: 1000px;
+	padding: 7px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	word-wrap: break-word;
+}
+h1{
+	margin: 0 auto;
+	width: 300px;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+h2 {
+	margin: 0 auto;
+	width: 300px;
+	font-size: 26px;
+}
+h3 {
+	margin: 0 auto;
+	width: 300px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+a:visited{
+	color: rgb(59, 31, 59);
+	
+}
+ol li {
+		background-color: rgb(127, 205, 211);
+		font-size: 23px;
+		border: 2px solid lightgreen;
+		width: 1200px;
+		color: rgb(243, 177, 243);
+		padding: 25px;
+}
+ol li p{
+	margin: 0 auto;
+}
+
+ol li:not(:last-child){
+	margin-bottom: 25px;
+}
+
+table{
+	border: 3px solid wheat;
+	margin-bottom: 25px;
+}
+th, td, tr{
+	width: auto;
+	text-align: center;
+	border: 3px solid wheat;
+	padding: 15px;
+}
+.main-title{
+	width: 800px;
+}
+.product:not(:last-child){
+	margin-bottom: 10px;
+}
+label + input{
+	margin-left: 10px;
+}
+.task7-title{
+	color: goldenrod;
+}
+.task7-paragraph{
+	background-color: rgb(4, 181, 194);
+}
+.fruit{
+	display: inline-block;
+	border: 1px solid green;
+	color: wheat;
+	background-color: green;
+	font-size: 25px;
+	text-align: center;
+	width: 100px;
+	height: 60px;
+	padding-top: 30px;
+	margin-right: 20px;
+}
+div{
+	width: 50%;
+	margin: 0 auto;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+.united__title{
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.united__link {
+	margin-left: 200px;
+}
+
+.list-lesson-10__item{
+	list-style: none;
+	background-color: rebeccapurple;
+	font-size: 30px;
+}
+.list-lesson-10__item span{
+display: inline-block;
+background-color: rgb(129, 247, 129);
+color: rgb(39, 39, 38);
+padding: 10px;
+max-width: auto;
+}
+.title-lesson-11-tasks{
+	color: aquamarine;
+	background-color: brown;
+}

@@ -1,0 +1,45 @@
+.calculator {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.calculator__numders {
+	display: flex;
+	flex-direction: row;
+	gap: 150px;
+}
+
+.calculator__label {font-size: 20px;}
+
+.calculator__input {
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+	margin-top: 15px;
+}
+
+.calculator__button {display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+}
+.calculator__button:hover{
+	background-color: rgb(84, 67, 67);
+	color: wheat;
+}
+
+.result__label {
+	font-size: 20px;
+}
+
+.result__input {
+	display: block;
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+/* ================================================================================================= */
+
